@@ -37,9 +37,7 @@ paths:
         "200":
           description: OK
           schema:
-            items:
-              $ref: '#/definitions/main.album'
-            type: array
+            $ref: '#/definitions/main.album'
       summary: Get albums array
       tags:
       - albums

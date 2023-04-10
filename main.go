@@ -30,7 +30,7 @@ var albums = []album{
 //	@Description	Responds with the list of all albums as JSON.
 //	@Tags			albums
 //	@Produce		json
-//	@Success		200	{array}	album
+//	@Success		200	{object}	album
 //	@Router			/albums [get]
 func getAlbums(c *gin.Context) {
 	c.IndentedJSON(http.StatusOK, albums)
@@ -101,7 +101,7 @@ func main() {
 	docs.SwaggerInfo.Description = "This is a sample server Petstore server."
 	docs.SwaggerInfo.Version = "1.0"
 	docs.SwaggerInfo.Host = ""
-	docs.SwaggerInfo.BasePath = "/v1"
+	docs.SwaggerInfo.BasePath = ""
 	docs.SwaggerInfo.Schemes = []string{"http", "https"}
 
 	router := gin.Default()
