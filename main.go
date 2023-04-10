@@ -98,7 +98,7 @@ func main() {
 
 	// programmatically set swagger info
 	docs.SwaggerInfo.Title = "Swagger Example API"
-	docs.SwaggerInfo.Description = "This is a sample server Petstore server."
+	docs.SwaggerInfo.Description = "This is a sample server AlbumStore server."
 	docs.SwaggerInfo.Version = "1.0"
 	docs.SwaggerInfo.Host = ""
 	docs.SwaggerInfo.BasePath = ""
