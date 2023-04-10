@@ -14,10 +14,6 @@ type album struct {
 	Price  float64 `json:"price"`
 }
 
-/*
-json:"artist"Yapının içeriği JSON'da serileştirildiğinde bir alanın adının ne olması gerektiğini belirtmek gibi yapı etiketleri .
-Bunlar olmadan JSON, yapının büyük harfle yazılmış alan adlarını kullanırdı - JSON'da o kadar yaygın olmayan bir stil.
-*/
 
 // albums slice to seed record album data.
 var albums = []album{
